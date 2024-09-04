@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220620002435">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+	.menuBurger {
+		transition: transform 0.3s ease 0s;
+		transform: translate(-110%, 0px);
+	}
+
+	.menu-open .menuBurger {
+		transform: translate(0%, 0px);
+		transition: all 0.3s ease 0s;
+	}
+
+	.btn {
+		background-color: #DBFF00;
+		transition: background-color 0.5s ease 0s;
+	}
+</style>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo"><img src="img/icons/logo.svg" alt="logo"></div>
+					<nav data-da=".menuBurger, 768" class="header__navigation">
+
+						<a href="#" data-goto-top="30" data-goto=".swiper" class="header__link">Программы</a>
+						<a href="#" data-goto=".steps__body" class="header__link">О мойке</a>
+						<a href="#" data-goto=".bonus__title" class="header__link">Бонусы</a>
+						<a href="#" data-goto=".map__title" class="header__link">Наш адрес</a>
+
+					</nav>
+					<div class="header__info">
+						<p class="header__schedule">График работы: 24/7</p>
+						<a href="tel:+79870948082" class="header__phone">+7(987)-094-80-82</a>
+					</div>
+					<div class="menu__icon icon-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="menuBurger"></div>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container _container">
+					<div class="main__body">
+						<div class="main__full-screen">
+							<h1 class="main__title">Чистая машина за 7 минут </h1>
+							<p class="main__text">без щеток и очередей,<br> не выходя из авто.</p>
+							<a href="#" data-goto=".sale__container" class="main__btn btn">Скидка на мойку</a>
+						</div>
+						<video preload="auto" loop muted autoplay class="main__video-item">
+							<source src="img/video/wash.webm" type="video/webm">
+							<!-- <source src="img/video/wash.mp4" type="video/mp4"> -->
+						</video>
+					</div>
+				</div>
+			</section>
+			<section class="page__cart cart">
+				<div class="cart__container _container">
+					<div class="cart__body">
+						<div class="cart__item">
+							<div class="cart__image"><img src="img/icons/roket.svg" alt="ракета"></div>
+							<div class="cart__title">Быстро</div>
+
+							<p class="cart__descript">Экономим время,скорость мойки автоот 3 до 10 минут</p>
+						</div>
+						<div class="cart__item">
+							<div class="cart__image"><img src="img/icons/armchair.svg" alt="кресло"></div>
+							<div class="cart__title">Удобно</div>
+							<p class="cart__descript">Вам не нужно выходить изавтомобиля на протяжении всей мойки.</p>
+						</div>
+						<div class="cart__item">
+							<div class="cart__image"><img src="img/icons/wash.svg" alt="мойка автомобиля"></div>
+							<div class="cart__title">Без щеток</div>
+							<p class="cart__descript">Заботимся о кузове автомобиля. Моем без тряпок и щеток.</p>
+						</div>
+						<div class="cart__item">
+							<div class="cart__image"><img src="img/icons/rub.svg" alt="рубль"></div>
+							<div class="cart__title">Недорого</div>
+							<p class="cart__descript">Цены от 200 рублей</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__program program">
+
+				<div class="program__container _container">
+					<div class="program__title title">
+						<h2>Программы мойки</h2>
+						<hr>
+					</div>
+				</div>
+
+
+				<div class="program__slider swiper">
+					<div class="program__wrapper swiper-wrapper">
+						<div class="program__slide swiper-slide">
+							<div class="program__item">
+								<div class="program__bonus">+20 бонусов</div>
+								<div class="program__mode">
+									<div class="program__image"><img src="img/icons/Group.svg" alt=""></div>
+
+									<div class="program__mode-text-wrap">
+										<div class="program__mode-text">Режим 1</div>
+										<div class="program__mode-descript">~5 мин.</div>
+									</div>
+
+								</div>
+								<div class="program__price">200 ₽</div>
+								<div class="program__progr-body">
+									<div class="program__progr-item program__progr-item_round">ОБМЫВ КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_round">ШАМПУНЬ 1</div>
+									<div class="program__progr-item program__progr-item_round">МОЙКА КУЗОВА</div>
+
+								</div>
+								<div class="program__benefit-footer">
+									<div class="program__text-footer">
+										<p class="program__night">Ночью выгоднее</p>
+										<p class="program__time">00:00 - 06:59</p>
+									</div>
+									<div class="program__price-footer">150 ₽</div>
+								</div>
+							</div>
+						</div>
+						<div class="program__slide swiper-slide">
+							<div class="program__item">
+								<div class="program__bonus">+30 бонусов</div>
+								<div class="program__mode">
+									<div class="program__image"><img src="img/icons/Group-1.svg" alt=""></div>
+									<div class="program__mode-text-wrap">
+										<div class="program__mode-text">Режим 2</div>
+										<div class="program__mode-descript">~7 мин.</div>
+									</div>
+								</div>
+								<div class="program__price">300 ₽</div>
+								<div class="program__progr-body">
+									<div class="program__progr-item program__progr-item_round">ОБМЫВ КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_round">ШАМПУНЬ 1</div>
+									<div class="program__progr-item program__progr-item_plus">ШАМПУНЬ 2</div>
+									<div class="program__progr-item program__progr-item_round">МОЙКА КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_plus">СУШКА</div>
+
+								</div>
+								<div class="program__benefit-footer">
+									<div class="program__text-footer">
+										<p class="program__night">Ночью выгоднее</p>
+										<p class="program__time">00:00 - 06:59</p>
+									</div>
+									<div class="program__price-footer">250 ₽</div>
+								</div>
+							</div>
+						</div>
+						<div class="program__slide swiper-slide">
+							<div class="program__item">
+								<div class="program__bonus">+35 бонусов</div>
+								<div class="program__mode">
+									<div class="program__image"><img src="img/icons/group-4.svg" alt=""></div>
+									<div class="program__mode-text-wrap">
+										<div class="program__mode-text">Режим 3</div>
+										<div class="program__mode-descript">~9 мин.</div>
+									</div>
+								</div>
+								<div class="program__price">350 ₽</div>
+								<div class="program__progr-body">
+									<div class="program__progr-item program__progr-item_plus">МОЙКА ДНИЩА</div>
+									<div class="program__progr-item program__progr-item_round">ОБМЫВ КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_round">ШАМПУНЬ 1</div>
+									<div class="program__progr-item program__progr-item_round">ШАМПУНЬ 2</div>
+									<div class="program__progr-item program__progr-item_plus">ПЕНА</div>
+									<div class="program__progr-item program__progr-item_plus">ОБМЫВ КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_plus">МОЙКА КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_plus">ОСМОС</div>
+									<div class="program__progr-item program__progr-item_round">СУШКА</div>
+
+								</div>
+								<div class="program__hit">
+									<div class="program__hit-image"><img src="img/icons/like.svg" alt=""></div>
+									<div class="program__hit-text">ХИТ ПРОДАЖ!</div>
+								</div>
+								<div class="program__benefit-footer">
+									<div class="program__text-footer">
+										<p class="program__night">Ночью выгоднее</p>
+										<p class="program__time">00:00 - 06:59</p>
+									</div>
+									<div class="program__price-footer">300 ₽</div>
+								</div>
+							</div>
+						</div>
+						<div class="program__slide swiper-slide">
+							<div class="program__item">
+								<div class="program__bonus">+40 бонусов</div>
+								<div class="program__mode">
+									<div class="program__image"><img src="img/icons/Group-2.svg" alt=""></div>
+									<div class="program__mode-text-wrap">
+										<div class="program__mode-text">Режим 4</div>
+										<div class="program__mode-descript">~10 мин.</div>
+									</div>
+								</div>
+								<div class="program__price">400 ₽</div>
+								<div class="program__progr-body">
+									<div class="program__progr-item program__progr-item_round">МОЙКА ДНИЩА</div>
+									<div class="program__progr-item program__progr-item_round">ОБМЫВ КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_round">ШАМПУНЬ 1</div>
+									<div class="program__progr-item program__progr-item_round">ШАМПУНЬ 2</div>
+									<div class="program__progr-item program__progr-item_round">ПЕНА</div>
+									<div class="program__progr-item program__progr-item_round">ОБМЫВ КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_round">МОЙКА КУЗОВА</div>
+									<div class="program__progr-item program__progr-item_plus">ОСМОС+ ВОСК</div>
+									<div class="program__progr-item program__progr-item_plus">ДВОЙНАЯ СУШКА</div>
+
+
+								</div>
+								<div class="program__benefit-footer">
+									<div class="program__text-footer">
+										<p class="program__night">Ночью выгоднее</p>
+										<p class="program__time">00:00 - 06:59</p>
+									</div>
+									<div class="program__price-footer">350 ₽</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- <div class="program__body">
+					</div> -->
+			</section>
+
+			<section class="page__sale sale">
+				<div class="sale__container _container">
+					<div class="sale__body">
+						<h3 class="sale__title">СКИДКА НА МОЙКУ</h3>
+						<p class="sale__descript">Жми на кнопку и получите скидку на певую мойку </p>
+
+						<form action="files/addUserPromo.php" data-ajax method="post" class="sale__form">
+
+
+							<div class="sale__input">
+								<input data-required="name" data-validate autocomplete="off" type="text" name="form[name]" placeholder="Имя" class="input">
+							</div>
+
+							<div class="sale__input input__last">
+								<input data-required data-validate autocomplete="off" type="text" name="form[phone]" placeholder="+7()  " class="input  _phone">
+							</div>
+
+							<button type="submit" class="sale__btn btn">Получить код</button>
+						</form>
+
+						<div class="sale__code-body">
+							<div class="sale__code"></div>
+						</div>
+					</div>
+				</div>
+				<div class="sale__fon">
+				</div>
+			</section>
+
+			<section class="page__steps steps">
+				<div class="steps__container _container">
+					<div class="steps__title">
+						<h4>КАК МЫ МОЕМ ВАШ АВТОМОБИЛЬ</h4>
+						<hr>
+					</div>
+					<div class="steps__body">
+						<div class="steps__item">
+							<div class="steps__number">1</div>
+							<div class="steps__image"><img src="img/main/step1.png" alt=""></div>
+							<div class="steps__article">МОЙКА ДНИЩА</div>
+							<hr>
+							<div class="steps__descript">Система предварительной мойкиавтомобиля осуществляет: мойку днища,порогов, дисков и арок автомобиля. Особенно актуальна в зимнее время.</div>
+						</div>
+
+						<div class="steps__item">
+							<div class="steps__number">2</div>
+							<div class="steps__image"><img src="img/main/step2.png" alt=""></div>
+							<div class="steps__article">НАНЕСЕНИЕ ЭМУЛЬСИИ</div>
+							<hr>
+							<div class="steps__descript">Первый состав химии. Жидкая эмульсия обладает высокими проникающими свойствами. Обеспечивает эффективное расщепление грязи.</div>
+						</div>
+
+						<div class="steps__item">
+							<div class="steps__number">3</div>
+							<div class="steps__image"><img src="img/main/step3.png" alt=""></div>
+							<div class="steps__article">НАНЕСЕНИЕ ПЕНЫ</div>
+							<hr>
+							<div class="steps__descript">Второй состав химии. Обеспечивает максимальное покрытие всего кузова автомобиля.</div>
+						</div>
+
+						<div class="steps__item">
+							<div class="steps__number">4</div>
+							<div class="steps__image"><img src="img/main/step4.png" alt=""></div>
+							<div class="steps__article">МОЙКА ВЫСОКИМ ДАВЛЕНИЕМ</div>
+							<hr>
+							<div class="steps__descript">Мойка автомобиля осуществляется равномерным потоком воды по всей поверхности кузова. Уникальная бесконтактная технология, которая бережёт лакокрасочное покрытие вашего автомобиля.</div>
+						</div>
+
+						<div class="steps__item">
+							<div class="steps__number">5</div>
+							<div class="steps__image"><img src="img/main/step5.png" alt=""></div>
+							<div class="steps__article">ВОСК</div>
+							<hr>
+							<div class="steps__descript">Покрытие автомобиля воском помогает улучшить сушку автомобиля за счёт гидрофобных свойств и обеспечивает дополнительную защиту кузова автомобиля.</div>
+						</div>
+
+						<div class="steps__item">
+							<div class="steps__number">6</div>
+							<div class="steps__image"><img src="img/main/step6.png" alt=""></div>
+							<div class="steps__article">СУШКА</div>
+							<hr>
+							<div class="steps__descript">Осуществляется бесконтактным способом. Работают сразу четыре двигателя с высокой мощностью, которые делают автомобиль сухим по всей поверхности.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__camera camera">
+				<div class="camera__container _container">
+					<div class="camera__title title">
+						<h5>Онлайн камера</h5>
+						<hr>
+						<div class="camera__video">
+							<!-- <iframe  width="560" height="315" src="https://www.youtube.com/embed/z3GS5oYGq5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__rules rules">
+				<div class="rules__container _container">
+					<div class="rules__title">ПРАВИЛА ИСПОЛЬЗОВАНИЯ</div>
+					<div class="rules__body">
+						<div class="rules__item">
+							<div class="rules__number">1</div>
+							<div class="rules__text">Выберите и оплатите программу мойки в терминале оплаты.</div>
+						</div>
+						<div class="rules__item">
+							<div class="rules__number">2</div>
+							<div class="rules__text">Закройте двери, окна и люк автомобиля.</div>
+						</div>
+						<div class="rules__item">
+							<div class="rules__number">3</div>
+							<div class="rules__text">При появлении сигнала <div class="rules__icon rules__icon_up"></div> начинайте движение вперед со скоростью 3 км/ч.</div>
+						</div>
+						<div class="rules__item">
+							<div class="rules__number">4</div>
+							<div class="rules__text">При появлении сигнала <div class="rules__icon rules__icon_krest"></div> остановитесь. Если на световом табло появился сигнал <div class="rules__icon rules__icon_down"></div> сдайте назад до появления сигнала.</div>
+						</div>
+						<div class="rules__item">
+							<div class="rules__number">5</div>
+							<div class="rules__text">Поставьте автомобиль на ручной тормоз и заглушите двигатель.</div>
+						</div>
+						<div class="rules__item">
+							<div class="rules__number">6</div>
+							<div class="rules__text">Не покидайте автомобиль до окончания мойки.</div>
+						</div>
+						<div class="rules__item">
+							<div class="rules__number">7</div>
+							<div class="rules__text">По завершению программы и появления на световом табло сигнала <div class="rules__icon rules__icon_up"></div> дождитесь открытия ворот и выезжайте</div>
+						</div>
+					</div>
+					<div class="rules__title">ЗАПРЕЩАЕТСЯ</div>
+					<div class="rulse__prohibition">
+						<div class="rulse__column">
+							<div class="rulse__column-item">
+								<div class="rulse__round"><img src="img/icons/EllipseYellow.svg" alt=""></div> Покидать автомобиль во времяработы моечного оборудования.
+							</div>
+							<div class="rulse__column-item">
+								<div class="rulse__round"><img src="img/icons/EllipseYellow.svg" alt=""></div> Въезд автомобиля, превышающегоразмеры: длина 5,9 м. ширина 2,9 м.высота 2,05 м.
+							</div>
+							<div class="rulse__column-item">
+								<div class="rulse__round"><img src="img/icons/EllipseYellow.svg" alt=""></div> Открывать двери, окна и люк вовремя работы моечногооборудования
+							</div>
+						</div>
+						<div class="rulse__column">
+							<div class="rulse__column-item">
+								<div class="rulse__round"><img src="img/icons/EllipseYellow.svg" alt=""></div> Стоянка автомобиля послеокончания мойки.
+							</div>
+							<div class="rulse__column-item">
+								<div class="rulse__round"><img src="img/icons/EllipseYellow.svg" alt=""></div> Ожидать выполнения выбраннойпрограммы мойки с работающим двигателем.
+							</div>
+							<div class="rulse__column-item rulse__column-item_car">
+								<div class="rulse__round"><img src="img/icons/EllipseYellow.svg" alt=""></div>Наносить ущерб автомоечному комплексу
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__bonus bonus">
+				<div class="bonus__container _container">
+					<h6 class="bonus__title title">Бонусная программа</h6>
+					<div class="bonus__body">
+						<div class="bonus__car"><img src="img/main/car.png" alt="лексус"></div>
+						<div class="bonus__info">
+							<p class="bonus__text">
+								Вводи свой номер телефона при оплате мойки и получай 10% бонусными баллами.<br><br>
+								Баллы привязываються к твоему номеру телефонна. <br><br>
+								Копи баллы и мойся бесплатно!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__map map">
+				<div class="map__container _container">
+					<div class="map__title">Наш адрес</div>
+					<div class="map__address">г. Стерлитамак ул. Элеваторная 15
+					</div>
+				</div>
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9b00573e5a7efb3b30014b6b8440bea0632ad4fa745af67ee960926e2d6d4d9c&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__column">
+						<div class="footer__wrap-images">
+							<a href="#" data-goto=".header" style="cursor: pointer; display: block;" class="footer__logo"><img src="img/icons/logo.svg" alt="logo"></a>
+							<a href="https://v-master.pro" class="footer__partner"><img src="img/icons/partner.svg" alt="partner"></a>
+						</div>
+
+						<div class="footer__insert"></div>
+						<p class="footer__title-soc">Мы в социальных сетях:</p>
+						<div class="footer__wrapper-soc">
+							<a href="https://vk.com/robot_moika_rb" class="footer__item-soc"><img src="img/icons/vk.svg" alt="Вконтакте"></a>
+						</div>
+					</div>
+					<div data-da=".footer__insert, 479.98" class="footer__column">
+						<p class="footer__contact">Связаться с нами:</p>
+						<p class="footer__schedule-contact">ежедневно с 9:00 до 20:00</p>
+						<a href="tel:+79870948082" class="footer__phone">+7(987)-094-80-82</a>
+						<p class="footer__mode">Режим работы мойки:</p>
+						<p class="footer__schedule">Круглосуточно 24/7</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.js?_v=20220620002435"></script>
+	<!-- <script src="js/app.min.js?_v=20220620002435"></script> -->
+</body>
+
+</html>
